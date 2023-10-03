@@ -16,7 +16,7 @@ const Avatar: React.FC<IAvatar> = ({ image, level }) => {
       </div>
       <div className="w-[24px] h-[24px] avatar absolute -right-1 -bottom-2 bg-white flex justify-center items-center ">
         <div className="w-[20px] h-[20px] avatar  relative bg-[#1e293b] text-white font-semibold flex justify-center items-center text-xs">
-          <p>{level}</p>
+          <h3>{level}</h3>
         </div>
       </div>
     </div>

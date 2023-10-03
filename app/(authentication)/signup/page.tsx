@@ -80,7 +80,7 @@ const Page = () => {
   }, [formRef]);
 
   return (
-    <div className="w-[92%] lg:w-[35%] mx-auto relative">
+    <section className="w-[92%] lg:w-[35%] mx-auto relative">
       <div className="w-full">
         <Image
           src={Logo}
@@ -143,7 +143,7 @@ const Page = () => {
           />
         </div>
       </form>
-    </div>
+    </section>
   );
 };
 

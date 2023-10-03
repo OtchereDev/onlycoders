@@ -2,8 +2,6 @@ import Banner from "@/components/social/Banner";
 import PostCard from "@/components/social/PostCard";
 import Image from "next/image";
 import Anime from "@/assets/images/anime.png";
-import GroupTag from "@/components/social/GroupTag";
-import Badge from "@/components/social/Badges";
 import NewMembers from "@/components/social/NewMembers";
 import PopularGroups from "@/components/social/PopularGroups";
 import BadgesGroup from "@/components/social/BadgesGroup";
@@ -11,11 +9,11 @@ import Quests from "@/components/social/Quests";
 
 export default function Home() {
   return (
-    <main className="gap-4 relative lg:h-screen">
+    <section className="gap-4 relative lg:h-screen">
       <Banner />
 
       <div className="lg:grid lg:grid-col-12 lg:grid-rows-5 lg:grid-flow-row lg:gap-4">
-        <div className="lg:col-span-6 lg:row-span-6">
+        <section className="lg:col-span-6 lg:row-span-6">
           <div className="flex justify-between mt-6 lg:mt-0 lg:hidden">
             <select className="border-2 border-[#E2E8F0] py-3 px-2 rounded-md bg-transparent outline-none">
               <option value="">All Updates</option>
@@ -95,7 +93,7 @@ export default function Home() {
               </div>
             </PostCard>
           </div>
-        </div>
+        </section>
 
         <NewMembers />
 
@@ -105,6 +103,6 @@ export default function Home() {
 
         <Quests />
       </div>
-    </main>
+    </section>
   );
 }

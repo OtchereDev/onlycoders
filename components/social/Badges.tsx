@@ -14,7 +14,7 @@ const Badge: React.FC<IBadge> = ({ image, name, message }) => {
         <Image src={image} alt={"badge"} layout="fill" />
       </div>
       <div>
-        <p className="text-[#475569] font-semibold">{name}</p>
+        <h4 className="text-[#475569] font-semibold">{name}</h4>
         <p className="text-[12px] text-[#94A3B8]">{message}</p>
       </div>
     </div>

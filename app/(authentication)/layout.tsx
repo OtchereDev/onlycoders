@@ -9,7 +9,7 @@ interface ILayout {
 
 const Layout: React.FC<ILayout> = ({ children }) => {
   return (
-    <div className=" relative min-h-screen min-w-full bg-lg flex justify-center lg:items-center overflow-hidden pt-10 lg:pt-0">
+    <main className=" relative min-h-screen min-w-full bg-lg flex justify-center lg:items-center overflow-hidden pt-10 lg:pt-0">
       <Image
         className="absolute left-0 top-0 hidden h-full w-full lg:block"
         src={BgLg}
@@ -21,7 +21,7 @@ const Layout: React.FC<ILayout> = ({ children }) => {
         alt="bg"
       />
       <div className="w-full">{children}</div>
-    </div>
+    </main>
   );
 };
 

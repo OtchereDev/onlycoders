@@ -32,7 +32,7 @@ const NavBar = () => {
   }, [searchFieldFocused]);
 
   return (
-    <div className="flex bg-[#5d5dec] z-30 py-4 lg:px-8 px-5 items-center justify-between fixed top-0 left-0 w-full">
+    <nav className="flex bg-[#5d5dec] z-30 py-4 lg:px-8 px-5 items-center justify-between fixed top-0 left-0 w-full">
       <div className="lg:hidden">
         <svg
           width="23"
@@ -104,10 +104,10 @@ const NavBar = () => {
             />
           </svg>
 
-          <p className="navbar-label">Home</p>
+          <a className="navbar-label">Home</a>
 
           <div className="navbar-label">
-            <p>Features</p>
+            <a>Features</a>
             <svg
               width="12"
               height="13"
@@ -125,7 +125,7 @@ const NavBar = () => {
             </svg>
           </div>
           <div className="navbar-label">
-            <p>More</p>
+            <a>More</a>
             <svg
               width="12"
               height="13"
@@ -214,7 +214,7 @@ const NavBar = () => {
           />
         </svg>
       </div>
-    </div>
+    </nav>
   );
 };
 

@@ -11,12 +11,12 @@ const Banner = () => {
         className="absolute w-[130px] lg:w-[160px] -top-2 -left-3"
       />
       <div className="ml-32 lg:ml-36">
-        <p className="text-[16px] lg:text-[20px] text-white  font-bold">
+        <h2 className="text-[16px] lg:text-[20px] text-white  font-bold">
           Newsfeed
-        </p>
-        <p className="text-[14px] text-[#F5F3FF]">
+        </h2>
+        <h4 className="text-[14px] text-[#F5F3FF]">
           Check what your friends have been up to
-        </p>
+        </h4>
       </div>
     </div>
   );

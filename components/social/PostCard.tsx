@@ -24,7 +24,7 @@ const PostCard: React.FC<IPostCard> = ({
       <div className="flex gap-4 items-center">
         <Avatar image={user.image} level={user.level} />
         <div className="flex gap-2 items-center">
-          <p className="text-[#475569] font-semibold">{user.name}</p>
+          <h3 className="text-[#475569] font-semibold">{user.name}</h3>
           {user.isPro && (
             <svg
               width="16"
@@ -57,8 +57,8 @@ const PostCard: React.FC<IPostCard> = ({
         </div>
 
         <div className="flex gap-3  text-[#334155]">
-          <p>{commentCount} Comments</p>
-          <p>{shareCount} Shares</p>
+          <h5>{commentCount} Comments</h5>
+          <h5>{shareCount} Shares</h5>
         </div>
       </div>
     </div>

@@ -21,7 +21,7 @@ const MemberTag: React.FC<IMemberTag> = ({
       <Avatar image={image} level={level} />
       <div>
         <div className="flex items-center gap-3">
-          <p className="text-[#475569] font-semibold">{name}</p>
+          <h4 className="text-[#475569] font-semibold">{name}</h4>
 
           {isPro && (
             <svg

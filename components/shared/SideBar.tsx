@@ -264,7 +264,7 @@ const tabs = [
 
 const SideBar = () => {
   return (
-    <div className="bg-white border border-[#F1F5F9] shadow-sm w-full lg:w-[74px] lg:h-[calc(100%-80px)] fixed bottom-0 left-0 py-4 flex lg:flex-col items-center justify-between lg:gap-3 lg:pt-6 lg:justify-start px-5">
+    <section className="bg-white border border-[#F1F5F9] shadow-sm w-full lg:w-[74px] lg:h-[calc(100%-80px)] fixed bottom-0 left-0 py-4 flex lg:flex-col items-center justify-between lg:gap-3 lg:pt-6 lg:justify-start px-5">
       <div className="bg-[#5ecfdd] h-[40px] w-[40px] cursor-pointer rounded-md flex justify-center items-center">
         {tabs[0].icon}
       </div>
@@ -311,7 +311,7 @@ const SideBar = () => {
           {tab.icon}
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 
