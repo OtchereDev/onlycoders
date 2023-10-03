@@ -18,7 +18,7 @@ This project uses the the nextjs app router.
 
 #### [Code Structure]
 
-1. app: this folder contains the individual pages of the application, the favicon and the global css. In this project there are three route. the routing is based on the file structure except where the folder look like this `(x) where is a folder name` then the folder name is excempted from the route path.
+1. app: this folder contains the individual pages of the application, the favicon and the global css. In this project there are three route. the routing is based on the file structure except where the folder look like this `(x) where x is a folder name` then the folder name is excempted from the route path.
 
 2. assets: this contains the images and the lottie animation files used in the project
 
